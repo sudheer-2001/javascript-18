@@ -43,3 +43,24 @@ const myFunction = function(){
 // console.log(typeof heroes) => object
 // console.log(typeof myObj) => object
 // console.log(typeof myFunction) => function -> basically it is an object function
+
+//******************************************** 
+// Stack (Primitive) memory (value type assignment)   
+// & Heap (Non-Primitive) memory (reference type assignment)
+
+let myName = "Hello"
+let anotherName = "Hiii"
+anotherName = "Wonderful"
+
+// console.log(myName) => Hello
+// console.log(anotherName) => Wonderful
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "sudheer@google.com"
+
+// console.log(userOne.email) => sudheer@google.com
+// console.log(userTwo.email); => sudheer@google.com
