@@ -51,3 +51,35 @@ console.log(users[0].email);
 // console.log(Object.entries(tinderUser)); => [ [ 'name', 'sudheer' ], [ 'age', 22 ], [ 'isLoggedIn', false ] ]
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); => true
+
+const course = {
+    courseName : "javaScript",
+    price: 999,
+    courseInstructor: "sudheer"
+}
+
+// course.courseInstructor;
+
+const{courseInstructor} = course
+// console.log(courseInstructor); => sudheer
+
+const{courseInstructor: instructor} = course
+// console.log(instructor); => sudheer
+
+const navbar = ({company}) => {
+
+}
+navbar(company="sudheer");
+
+// JSON => it is javascript object notation
+// {
+//     "name": "sudheer",
+//     "age": 22,
+//     "email": "sudheer@google.com"
+// }
+
+[
+    {},
+    {},
+    {}
+]
