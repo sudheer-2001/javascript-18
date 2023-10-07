@@ -6,16 +6,15 @@ const user = {
         console.log(this);
     }
 }
-// user.welcomeMessage(); => sudheer, welcome to website
+//  user.welcomeMessage(); => sudheer, welcome to website   {username: 'sudheer', price: 999,welcomeMessage: [Function: welcomeMessage] }
 user.username= "sam";
 // user.welcomeMessage() => sam, welcome to website {username: 'sam', price: 999, welcomeMessage: [Function: welcomeMessage] }
-
-// console.log(this);   
+// console.log(this);   => {}
 
 function one() {
     console.log(this);
 }
-// one();
+one();
 
 function chai(){
     let username = "sudheer"
