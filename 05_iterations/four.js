@@ -59,7 +59,7 @@ map.set('Fr', 'France')
     // Iterable objects include arrays, strings, maps, sets, and other data structures that can be looped through.
     // It provides a more concise syntax for iterating through the values of an iterable,
     //  without having to deal with indexing or accessing properties.
-// for...of loop
+// for...in loop
     // iterates over the keys (or property names) of an object, including both its own properties 
     // and inherited properties from its prototype chain. It's typically used with objects 
     // and is not recommended for use with arrays because it may not iterate through the elements in the expected order
