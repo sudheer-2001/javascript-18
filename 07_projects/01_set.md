@@ -54,5 +54,29 @@ form.addEventListener('submit', function (e) {
   }
 });
 
+```
+## project 3
+
+```Javascript
+const clock = document.getElementById('clock');
+
+//let date = new Date();
+//console.log(date.toLocaleTimeString()); // if we use this not updated each time its by own , if you refresh it updates new time But not by its own
+//to reduce this thing we have another approach
+//setInterval --> it runs continuously
+
+setInterval(function () {
+  let date = new Date();
+  //console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+
+```
+
+## project 4
+
+```Javascript
+
 
 ```
