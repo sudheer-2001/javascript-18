@@ -177,6 +177,7 @@ function newGame() {
 
 ```
 
+## project 6
 ```Javascript
 const randomColors = function () {
   const hex = '0123456789ABCDEF';
